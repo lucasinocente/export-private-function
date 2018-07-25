@@ -1,3 +1,5 @@
 const obj = require('./index')
 
-console.log(obj.secondFunction(1,2))
+test('adds 1 + 2 to equal 3', () => {
+    expect(obj.secondFunction(1, 2)).toBe(3);
+});
